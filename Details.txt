@@ -43,21 +43,21 @@ Topics:
       filter:
         Returns the elements of an array that meet the condition specified in a callback function.
 
-        @param predicate — A function that accepts up to three arguments. The filter method calls the predicate function one time for each element in the array.
+        @param predicate ( a function which returns true or false value ) — A function that accepts up to three arguments. The filter method calls the predicate function one time for each element in the array.
 
 
       find:
         Returns the value of the first element in the array where predicate is true, and undefined otherwise.
 
-        @param predicate
+        @param predicate ( a function which returns true or false value )
         find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, find immediately returns that element value. Otherwise, find returns undefined.
 
         return value --> first value that matches the condition
 
-      findIndex:
+      findIndex: 
         Returns the index of the first element in the array where predicate is true, and -1 otherwise.
 
-        @param predicate
+        @param predicate ( a function which returns true or false value )
         find calls predicate once for each element of the array, in ascending order, until it finds one where predicate returns true. If such an element is found, findIndex immediately returns that element index. Otherwise, findIndex returns -1.
 
       reduce:
