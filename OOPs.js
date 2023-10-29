@@ -84,8 +84,9 @@ class Bus extends Vehicle {
 const BharatBenz = new Bus("Bharat Benz", "Multi-Axle");
 
 class Bike extends Vehicle {
-  constructor(brand, model) {
+  constructor(brand, model, engine='Two-Stroke') {
     super(brand, model, 2); // calls the parent constructor
+    this.engine = engine;
   }
 }
 
